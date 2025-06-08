@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Transfer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <style>
+        .dragover { border-color: #3b82f6; background: #dbeafe; }
+        .scrollbar { scrollbar-width: thin; scrollbar-color: #d1d5db #f3f4f6; }
+        .scrollbar::-webkit-scrollbar { width: 6px; }
+        .scrollbar::-webkit-scrollbar-track { background: #f3f4f6; }
+        .scrollbar::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+        .progress-bar { transition: width 0.3s ease; }
+        .chat-box { transition: background-color 0.2s ease; }
+        .chat-box:hover { background: #f3f4f6; }
+        .chat-box.active { background: #e5e7eb; }
+        .notification { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex min-h-screen">
+    <!-- Sidebar: Danh sách người dùng -->
+    <div class="bg-white w-1/4 max-w-xs p-4 flex flex-col shadow-md">
+        <h1 class="text-2xl font-bold mb-4 text-gray-800">Người Dùng</h1>
+        <div class="mb-4">
+            <p class="text-sm text-gray-600">Bạn đang đăng nhập với: {{ current_user }}</p>
+            <a href="{{ url_for('logout') }}" class="text-blue-600 hover:underline">Đăng Xuất</a>
+        </div>
+        <div id="userList" class="flex-1 overflow-y-auto scrollbar"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="mainView" class="flex-1 flex flex-col p-4">
+        <!-- Placeholder khi chưa chọn người dùng -->
+        <div id="placeholder" class="flex-1 flex items-center justify-center text-gray-500">
+            Chọn một người dùng để bắt đầu truyền file
+        </div>
+        <!-- File Transfer Area -->
+        <div id="transferArea" class="flex-1 flex flex-col hidden">
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800">Phòng với <span id="recipientName"></span></h2>
+                    <button onclick="closeRoom()" class="text-gray-600 hover:text-gray-800">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Upload Area -->
+                <div id="uploadArea" class="w-full bg-gray-50 rounded-lg p-6 mb-6">
+                    <div id="dropZone" class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center cursor-pointer hover:border-blue-500"
+                         ondragover="event.preventDefault(); this.classList.add('dragover');"
+                         ondragleave="this.classList.remove('dragover');"
+                         ondrop="event.preventDefault(); this.classList.remove('dragover'); handleDrop(event);">
+                        <p class="text-gray-600">Kéo và thả file vào đây hoặc</p>
+                        <button onclick="document.getElementById('fileInput').click();" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+                            Chọn File
+                        </button>
+                        <input type="file" id="fileInput" class="hidden" onchange="handleFileSelect(event)">
+                    </div>
+                    <div id="progressArea" class="mt-4 hidden">
+                        <p class="text-gray-600">Đang upload: <span id="fileName"></span></p>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div id="progressBar" class="bg-blue-500 h-2.5 rounded-full progress-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- File List -->
+                <div id="fileList" class="space-y-4 max-h-96 overflow-y-auto scrollbar"></div>
+            </div>
+            <!-- Message Area -->
+            <div id="message_area" class="p-4 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold mb-2">Thông báo</h3>
+                <div id="message" class="text-sm text-gray-600"></div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const socket = io();
+        let currentSender = '{{ current_user }}';
+        let currentRecipient = null;
+        let currentRoomId = '';
+
+        // Tải danh sách người dùng
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Loading user list...');
+            const users = JSON.parse('{{ users | tojson | safe }}');
+            const userList = document.getElementById('userList');
+            users.forEach(user => {
+                const div = document.createElement('div');
+                div.className = 'chat-box p-3 rounded-lg cursor-pointer relative';
+                div.innerHTML = `
+                    <p class="text-gray-800 font-medium">${user}</p>
+                    <span id="notification-${user}" class="absolute top-2 right-2 w-3 h-3 bg-red-500 rounded-full hidden notification"></span>
+                `;
+                div.addEventListener('click', () => startRoom(user));
+                userList.appendChild(div);
+            });
+            console.log(`Loaded ${users.length} users`);
+        });
+
+        socket.on('connect', () => {
+            console.log('Connected to server');
+            showMessage('Đã kết nối với máy chủ');
+        });
+
+        socket.on('message', (data) => {
+            console.log('Message received:', data);
+            showMessage(data.data);
+        });
+
+        socket.on('room_started', (data) => {
+            console.log('Room started:', data);
+            currentRecipient = data.recipient;
+            currentRoomId = data.room_id;
+            document.getElementById('recipientName').innerText = data.recipient;
+            document.getElementById('placeholder').classList.add('hidden');
+            document.getElementById('transferArea').classList.remove('hidden');
+            document.getElementById('fileList').innerHTML = '';
+            updateActiveChat(data.recipient);
+            showMessage(`Đã vào phòng với ${data.recipient}`);
+        });
+
+        socket.on('load_files', (data) => {
+            console.log('Loading files:', data);
+            const files = data.files || [];
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = '';
+            if (files.length === 0) {
+                showMessage('Chưa có file trong phòng này');
+            } else {
+                files.forEach(file => addFileToList(file));
+                showMessage(`Đã tải ${files.length} file trong phòng`);
+            }
+        });
+
+        socket.on('file_received', (data) => {
+            console.log('File received:', data);
+            addFileToList(data);
+            showMessage(`Nhận file từ ${data.sender}: ${data.filename}`);
+            document.getElementById(`notification-${data.sender}`).classList.remove('hidden');
+        });
+
+        socket.on('download_ready', (data) => {
+            console.log('Download ready:', data);
+            try {
+                const link = document.createElement('a');
+                link.href = data.file_data;
+                link.download = data.filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                // Kiểm tra tính toàn vẹn
+                calculateClientHash(data.file_data).then(clientHash => {
+                    if (clientHash === data.file_hash) {
+                        showMessage(`File ${data.filename} đã tải, SHA-256 khớp: ${clientHash.substring(0, 16)}...`);
+                    } else {
+                        showMessage(`Lỗi: File ${data.filename} không toàn vẹn! SHA-256 không khớp.`, 'text-red-500');
+                    }
+                });
+            } catch (e) {
+                showMessage(`Lỗi khi tải file: ${e.message}`, 'text-red-500');
+            }
+        });
+
+        socket.on('error', (data) => {
+            console.log('Error received:', data);
+            showMessage(data.message, 'text-red-500');
+        });
+
+        function startRoom(recipient) {
+            console.log('Starting room with:', recipient);
+            currentRecipient = recipient;
+            const notification = document.getElementById(`notification-${recipient}`);
+            if (notification) notification.classList.add('hidden');
+            socket.emit('start_room', { sender: currentSender, recipient: recipient });
+        }
+
+        function closeRoom() {
+            console.log('Closing room');
+            currentRecipient = null;
+            currentRoomId = '';
+            document.getElementById('transferArea').classList.add('hidden');
+            document.getElementById('placeholder').classList.remove('hidden');
+            document.getElementById('message').classList.add('hidden');
+            updateActiveChat(null);
+        }
+
+        function handleFileSelect(event) {
+            console.log('File selected:', event.target.files);
+            const file = event.target.files[0];
+            if (!file) {
+                showMessage('Không có file được chọn', 'text-red-500');
+                return;
+            }
+            if (!currentRoomId) {
+                showMessage('Vui lòng chọn người nhận trước khi gửi file', 'text-red-500');
+                return;
+            }
+            uploadFile(file);
+        }
+
+        function handleDrop(event) {
+            console.log('File dropped:', event.dataTransfer.files);
+            event.preventDefault();
+            const file = event.dataTransfer.files[0];
+            if (!file) {
+                showMessage('Không có file được kéo thả', 'text-red-500');
+                return;
+            }
+            if (!currentRoomId) {
+                showMessage('Vui lòng chọn người nhận trước khi gửi file', 'text-red-500');
+                return;
+            }
+            uploadFile(file);
+        }
+
+        function uploadFile(file) {
+            console.log('Uploading file:', file.name);
+            if (file.size > 50 * 1024 * 1024) { // Giới hạn 50MB
+                showMessage('File quá lớn (tối đa 50MB)', 'text-red-500');
+                return;
+            }
+
+            const reader = new FileReader();
+            const progressArea = document.getElementById('progressArea');
+            const progressBar = document.getElementById('progressBar');
+            const fileNameSpan = document.getElementById('fileName');
+
+            fileNameSpan.innerText = file.name;
+            progressArea.classList.remove('hidden');
+            progressBar.style.width = '0%';
+
+            reader.onprogress = (event) => {
+                if (event.lengthComputable) {
+                    const percent = (event.loaded / event.total) * 100;
+                    progressBar.style.width = `${percent}%`;
+                    console.log(`Upload progress: ${percent}%`);
+                }
+            };
+
+            reader.onload = () => {
+                try {
+                    socket.emit('upload_file', {
+                        filename: file.name,
+                        file_data: reader.result,
+                        file_size: file.size,
+                        room_id: currentRoomId,
+                        recipient: currentRecipient,
+                        sender: currentSender
+                    });
+                    progressArea.classList.add('hidden');
+                    showMessage(`Đã gửi file ${file.name} tới ${currentRecipient}`);
+                    console.log(`File ${file.name} sent to ${currentRecipient}`);
+                } catch (e) {
+                    showMessage(`Lỗi khi gửi file: ${e.message}`, 'text-red-500');
+                    progressArea.classList.add('hidden');
+                    console.error('Upload error:', e);
+                }
+            };
+
+            reader.onerror = () => {
+                showMessage('Lỗi khi đọc file', 'text-red-500');
+                progressArea.classList.add('hidden');
+                console.error('FileReader error');
+            };
+
+            reader.readAsDataURL(file);
+        }
+
+        function addFileToList(data) {
+            console.log('Adding file to list:', data);
+            const fileList = document.getElementById('fileList');
+            const div = document.createElement('div');
+            div.className = 'flex items-center justify-between p-4 bg-gray-50 rounded-lg';
+            div.innerHTML = `
+                <div>
+                    <p class="text-gray-800 font-medium">${data.filename}</p>
+                    <p class="text-sm text-gray-600">Từ: ${data.sender}</p>
+                    <p class="text-sm text-gray-600">Kích thước: ${(data.file_size / 1024).toFixed(2)} KB</p>
+                    <p class="text-sm text-gray-600">SHA-256: ${data.file_hash.substring(0, 16)}...</p>
+                </div>
+                <button onclick="downloadFile('${data.file_id}', '${data.filename}')"
+                        class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">
+                    Tải xuống
+                </button>
+            `;
+            fileList.prepend(div);
+        }
+
+        function downloadFile(fileId, filename) {
+            console.log(`Downloading file: ${filename}, ID: ${fileId}`);
+            socket.emit('download_file', { file_id: fileId, filename: filename, room_id: currentRoomId });
+        }
+
+        function showMessage(message, className = 'text-gray-600') {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerText = message;
+            messageDiv.className = `text-sm ${className}`;
+            messageDiv.classList.remove('hidden');
+            setTimeout(() => messageDiv.classList.add('hidden'), 5000);
+            console.log('Message shown:', message);
+        }
+
+        async function calculateClientHash(dataUrl) {
+            try {
+                console.log('Calculating client hash');
+                const base64String = dataUrl.split(',')[1];
+                const binaryString = atob(base64String);
+                const len = binaryString.length;
+                const bytes = new Uint8Array(len);
+                for (let i = 0; i < len; i++) {
+                    bytes[i] = binaryString.charCodeAt(i);
+                }
+                const hashBuffer = await crypto.subtle.digest('SHA-256', bytes);
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                const hash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+                console.log('Client hash calculated:', hash.substring(0, 16) + '...');
+                return hash;
+            } catch (e) {
+                showMessage(`Lỗi tính hash: ${e.message}`, 'text-red-500');
+                console.error('Hash calculation error:', e);
+                return '';
+            }
+        }
+
+        function updateActiveChat(recipient) {
+            console.log('Updating active chat:', recipient);
+            const chatBoxes = document.querySelectorAll('.chat-box');
+            chatBoxes.forEach(box => {
+                box.classList.remove('active');
+                if (recipient && box.querySelector('p').textContent === recipient) {
+                    box.classList.add('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

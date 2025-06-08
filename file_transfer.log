@@ -1,0 +1,724 @@
+2025-06-04 14:20:55,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 14:20:55,460 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 14:20:55,460 - INFO -  * Restarting with stat
+2025-06-04 14:20:55,768 - WARNING -  * Debugger is active!
+2025-06-04 14:20:55,771 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:20:58,729 - INFO - 127.0.0.1 - - [04/Jun/2025 14:20:58] "GET / HTTP/1.1" 200 -
+2025-06-04 14:20:58,758 - INFO - 127.0.0.1 - - [04/Jun/2025 14:20:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-04 14:21:30,248 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:30] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:30,283 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-04 14:21:33,001 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:33] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:33,290 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:33] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:33,532 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:33] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:33,676 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:33] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:33,877 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:33] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:34,069 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:34] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:34,245 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:34] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:34,430 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:34] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:34,622 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:34] "GET / HTTP/1.1" 200 -
+2025-06-04 14:21:34,815 - INFO - 172.16.10.243 - - [04/Jun/2025 14:21:34] "GET / HTTP/1.1" 200 -
+2025-06-04 14:22:13,211 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 14:22:13,211 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 14:22:13,211 - INFO -  * Restarting with stat
+2025-06-04 14:22:13,502 - WARNING -  * Debugger is active!
+2025-06-04 14:22:13,505 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:22:19,643 - INFO - 127.0.0.1 - - [04/Jun/2025 14:22:19] "GET / HTTP/1.1" 200 -
+2025-06-04 14:22:19,931 - INFO - 127.0.0.1 - - [04/Jun/2025 14:22:19] "GET /socket.io/?EIO=4&transport=polling&t=PSvqSkP HTTP/1.1" 200 -
+2025-06-04 14:22:19,952 - INFO - Client connected: J0bjughYrmaktFNPAAAB
+2025-06-04 14:22:19,952 - INFO - 127.0.0.1 - - [04/Jun/2025 14:22:19] "POST /socket.io/?EIO=4&transport=polling&t=PSvqSkk&sid=L_zAqXLe1BbV_-FgAAAA HTTP/1.1" 200 -
+2025-06-04 14:22:19,954 - INFO - 127.0.0.1 - - [04/Jun/2025 14:22:19] "GET /socket.io/?EIO=4&transport=polling&t=PSvqSkl&sid=L_zAqXLe1BbV_-FgAAAA HTTP/1.1" 200 -
+2025-06-04 14:22:19,958 - INFO - 127.0.0.1 - - [04/Jun/2025 14:22:19] "GET /socket.io/?EIO=4&transport=polling&t=PSvqSkr&sid=L_zAqXLe1BbV_-FgAAAA HTTP/1.1" 200 -
+2025-06-04 14:22:51,480 - ERROR - Error in upload_file: name 'base64' is not defined
+2025-06-04 14:22:59,036 - INFO - 127.0.0.1 - - [04/Jun/2025 14:22:59] "GET /socket.io/?EIO=4&transport=websocket&sid=L_zAqXLe1BbV_-FgAAAA HTTP/1.1" 200 -
+2025-06-04 14:27:00,244 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 14:27:00,244 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 14:27:00,244 - INFO -  * Restarting with stat
+2025-06-04 14:27:01,388 - WARNING -  * Debugger is active!
+2025-06-04 14:27:01,391 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:27:05,076 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-04 14:27:05,085 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:05] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-04 14:27:20,544 - INFO -  * Detected change in 'd:\\Python\\TruyenFileSHA-256\\app.py', reloading
+2025-06-04 14:27:20,575 - INFO -  * Restarting with stat
+2025-06-04 14:27:21,714 - WARNING -  * Debugger is active!
+2025-06-04 14:27:21,718 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:27:24,593 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:24] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-04 14:27:24,621 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:24] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-04 14:27:51,094 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 14:27:51,096 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:51] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-04 14:27:51,134 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:51] "GET / HTTP/1.1" 200 -
+2025-06-04 14:27:51,217 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:51] "GET /socket.io/?EIO=4&transport=polling&t=PSvrjcm HTTP/1.1" 200 -
+2025-06-04 14:27:51,223 - INFO - Client Alice connected: EiM4qyRUSkBGakPFAAAB
+2025-06-04 14:27:51,223 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:51] "POST /socket.io/?EIO=4&transport=polling&t=PSvrjcr&sid=vOvX4bdJecX-ABU9AAAA HTTP/1.1" 200 -
+2025-06-04 14:27:51,225 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:51] "GET /socket.io/?EIO=4&transport=polling&t=PSvrjcs&sid=vOvX4bdJecX-ABU9AAAA HTTP/1.1" 200 -
+2025-06-04 14:27:51,235 - INFO - 127.0.0.1 - - [04/Jun/2025 14:27:51] "GET /socket.io/?EIO=4&transport=polling&t=PSvrjd2&sid=vOvX4bdJecX-ABU9AAAA HTTP/1.1" 200 -
+2025-06-04 14:27:57,135 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Bob
+2025-06-04 14:27:58,909 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Charlie
+2025-06-04 14:27:59,509 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Bob
+2025-06-04 14:28:15,358 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:15] "GET / HTTP/1.1" 200 -
+2025-06-04 14:28:15,486 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:15] "GET /socket.io/?EIO=4&transport=polling&t=PSvrpXx HTTP/1.1" 200 -
+2025-06-04 14:28:15,496 - INFO - Client Alice connected: tJMgtCQC-LIZWuq9AAAD
+2025-06-04 14:28:15,497 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:15] "POST /socket.io/?EIO=4&transport=polling&t=PSvrpY6&sid=fT22Qxq5bE3ZmQptAAAC HTTP/1.1" 200 -
+2025-06-04 14:28:15,497 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:15] "GET /socket.io/?EIO=4&transport=polling&t=PSvrpY7&sid=fT22Qxq5bE3ZmQptAAAC HTTP/1.1" 200 -
+2025-06-04 14:28:16,089 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:16] "GET /socket.io/?EIO=4&transport=polling&t=PSvrpYO&sid=fT22Qxq5bE3ZmQptAAAC HTTP/1.1" 200 -
+2025-06-04 14:28:17,276 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 14:28:17,276 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 14:28:17,278 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:17] "GET /login HTTP/1.1" 200 -
+2025-06-04 14:28:17,381 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:17] "GET /socket.io/?EIO=4&transport=websocket&sid=fT22Qxq5bE3ZmQptAAAC HTTP/1.1" 200 -
+2025-06-04 14:28:35,476 - INFO - Ngý\u1eddi dùng Charlie ðãng nh\u1eadp thành công
+2025-06-04 14:28:35,477 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 14:28:35,481 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:35] "GET / HTTP/1.1" 200 -
+2025-06-04 14:28:35,565 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:35] "GET /socket.io/?EIO=4&transport=polling&t=PSvruRi HTTP/1.1" 200 -
+2025-06-04 14:28:35,589 - INFO - Client Charlie connected: OqDZMC_oBlYZ6HUMAAAF
+2025-06-04 14:28:35,590 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:35] "POST /socket.io/?EIO=4&transport=polling&t=PSvruS2&sid=wzmtuqapSkeRNqFPAAAE HTTP/1.1" 200 -
+2025-06-04 14:28:35,592 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:35] "GET /socket.io/?EIO=4&transport=polling&t=PSvruS3&sid=wzmtuqapSkeRNqFPAAAE HTTP/1.1" 200 -
+2025-06-04 14:28:35,599 - INFO - 127.0.0.1 - - [04/Jun/2025 14:28:35] "GET /socket.io/?EIO=4&transport=polling&t=PSvruSC&sid=wzmtuqapSkeRNqFPAAAE HTTP/1.1" 200 -
+2025-06-04 14:28:40,176 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Charlie
+2025-06-04 14:28:40,743 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Bob
+2025-06-04 14:28:41,498 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Charlie
+2025-06-04 14:28:51,957 - INFO - File uploaded by Alice to Charlie: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 14:29:02,956 - INFO - Charlie b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Bob
+2025-06-04 14:29:04,462 - INFO - Charlie b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Alice
+2025-06-04 14:29:23,187 - INFO - File uploaded by Charlie to Alice: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 14:29:24,656 - INFO - Charlie b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi David
+2025-06-04 14:29:25,244 - INFO - Charlie b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Alice
+2025-06-04 14:34:53,793 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 14:34:53,793 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 14:34:53,793 - INFO -  * Restarting with stat
+2025-06-04 14:34:54,951 - WARNING -  * Debugger is active!
+2025-06-04 14:34:54,954 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:34:55,136 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:55] "GET /socket.io/?EIO=4&transport=polling&t=PSvtKQf HTTP/1.1" 200 -
+2025-06-04 14:34:55,140 - INFO - Client Charlie connected: s5qht5D1-fbTvGl8AAAB
+2025-06-04 14:34:55,140 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:55] "POST /socket.io/?EIO=4&transport=polling&t=PSvtL6Y&sid=oQL6lVMknBh73wrJAAAA HTTP/1.1" 200 -
+2025-06-04 14:34:55,142 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:55] "GET /socket.io/?EIO=4&transport=polling&t=PSvtL6Z&sid=oQL6lVMknBh73wrJAAAA HTTP/1.1" 200 -
+2025-06-04 14:34:57,336 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:57] "GET /socket.io/?EIO=4&transport=polling&t=PSvtLer HTTP/1.1" 200 -
+2025-06-04 14:34:57,339 - INFO - Client Charlie connected: 9dhBPz65PwEL5cJbAAAD
+2025-06-04 14:34:57,339 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:57] "POST /socket.io/?EIO=4&transport=polling&t=PSvtLev&sid=db-4MfqNJW9iKCWVAAAC HTTP/1.1" 200 -
+2025-06-04 14:34:57,342 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:57] "GET /socket.io/?EIO=4&transport=polling&t=PSvtLew&sid=db-4MfqNJW9iKCWVAAAC HTTP/1.1" 200 -
+2025-06-04 14:34:59,197 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:59] "GET / HTTP/1.1" 200 -
+2025-06-04 14:34:59,200 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:59] "GET /socket.io/?EIO=4&transport=websocket&sid=db-4MfqNJW9iKCWVAAAC HTTP/1.1" 200 -
+2025-06-04 14:34:59,252 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:59] "GET /socket.io/?EIO=4&transport=polling&t=PSvtM6o HTTP/1.1" 200 -
+2025-06-04 14:34:59,265 - INFO - Client Charlie connected: W4eVr9RofImgDO-GAAAF
+2025-06-04 14:34:59,265 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:59] "POST /socket.io/?EIO=4&transport=polling&t=PSvtM6-&sid=cNsmmvsL3OkZUCQfAAAE HTTP/1.1" 200 -
+2025-06-04 14:34:59,267 - INFO - 127.0.0.1 - - [04/Jun/2025 14:34:59] "GET /socket.io/?EIO=4&transport=polling&t=PSvtM6_&sid=cNsmmvsL3OkZUCQfAAAE HTTP/1.1" 200 -
+2025-06-04 14:35:01,850 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:01] "GET / HTTP/1.1" 200 -
+2025-06-04 14:35:01,854 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:01] "GET /socket.io/?EIO=4&transport=websocket&sid=oQL6lVMknBh73wrJAAAA HTTP/1.1" 200 -
+2025-06-04 14:35:01,906 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:01] "GET /socket.io/?EIO=4&transport=polling&t=PSvtMmE HTTP/1.1" 200 -
+2025-06-04 14:35:01,917 - INFO - Client Charlie connected: ltJ9VSP-TmayGKYKAAAH
+2025-06-04 14:35:01,917 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:01] "POST /socket.io/?EIO=4&transport=polling&t=PSvtMmP&sid=ua0B1vv6uJ6cEsj-AAAG HTTP/1.1" 200 -
+2025-06-04 14:35:01,919 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:01] "GET /socket.io/?EIO=4&transport=polling&t=PSvtMmQ&sid=ua0B1vv6uJ6cEsj-AAAG HTTP/1.1" 200 -
+2025-06-04 14:35:08,326 - INFO - Ngý\u1eddi dùng Charlie ðãng xu\u1ea5t
+2025-06-04 14:35:08,327 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 14:35:08,331 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:08] "GET /login HTTP/1.1" 200 -
+2025-06-04 14:35:08,438 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:08] "GET /socket.io/?EIO=4&transport=websocket&sid=ua0B1vv6uJ6cEsj-AAAG HTTP/1.1" 200 -
+2025-06-04 14:35:18,017 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 14:35:18,017 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 14:35:18,020 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:18] "GET / HTTP/1.1" 200 -
+2025-06-04 14:35:18,109 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:18] "GET /socket.io/?EIO=4&transport=polling&t=PSvtQjQ HTTP/1.1" 200 -
+2025-06-04 14:35:18,133 - INFO - Client Alice connected: mCjs-Clq-Rx1dfnqAAAJ
+2025-06-04 14:35:18,133 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:18] "POST /socket.io/?EIO=4&transport=polling&t=PSvtQjo&sid=QQhUDNnfqbt9L9b4AAAI HTTP/1.1" 200 -
+2025-06-04 14:35:18,134 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:18] "GET /socket.io/?EIO=4&transport=polling&t=PSvtQjp&sid=QQhUDNnfqbt9L9b4AAAI HTTP/1.1" 200 -
+2025-06-04 14:35:18,138 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:18] "GET /socket.io/?EIO=4&transport=polling&t=PSvtQju&sid=QQhUDNnfqbt9L9b4AAAI HTTP/1.1" 200 -
+2025-06-04 14:35:21,706 - INFO - Alice b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Charlie
+2025-06-04 14:35:28,276 - INFO - File uploaded by Alice to Charlie: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 14:35:35,318 - INFO - Charlie b\u1eaft ð\u1ea7u ph\xf2ng v\u1edbi Alice
+2025-06-04 14:35:45,002 - INFO - File uploaded by Charlie to Alice: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 14:35:47,460 - INFO - 127.0.0.1 - - [04/Jun/2025 14:35:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-04 14:35:57,925 - INFO - File uploaded by Charlie to Alice: output.txt, Hash: 7bd0f541021c1790571fd9650c4ec17a7df420606b8e7214775f5bf08e8a677f, Size: 64 bytes
+2025-06-04 14:36:02,317 - INFO - 127.0.0.1 - - [04/Jun/2025 14:36:02] "GET / HTTP/1.1" 200 -
+2025-06-04 14:36:02,327 - INFO - 127.0.0.1 - - [04/Jun/2025 14:36:02] "GET /socket.io/?EIO=4&transport=websocket&sid=cNsmmvsL3OkZUCQfAAAE HTTP/1.1" 200 -
+2025-06-04 14:36:02,346 - INFO - 127.0.0.1 - - [04/Jun/2025 14:36:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-04 14:36:02,448 - INFO - 127.0.0.1 - - [04/Jun/2025 14:36:02] "GET /socket.io/?EIO=4&transport=polling&t=PSvtbYD HTTP/1.1" 200 -
+2025-06-04 14:36:02,466 - INFO - Client Alice connected: 0-Mt0PTNB5UDiqXaAAAL
+2025-06-04 14:36:02,467 - INFO - 127.0.0.1 - - [04/Jun/2025 14:36:02] "GET /socket.io/?EIO=4&transport=polling&t=PSvtbYU&sid=yTx96o7HBvYMC2JQAAAK HTTP/1.1" 200 -
+2025-06-04 14:36:02,467 - INFO - 127.0.0.1 - - [04/Jun/2025 14:36:02] "POST /socket.io/?EIO=4&transport=polling&t=PSvtbYT&sid=yTx96o7HBvYMC2JQAAAK HTTP/1.1" 200 -
+2025-06-04 14:40:46,482 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 14:40:46,482 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 14:40:46,482 - INFO -  * Restarting with stat
+2025-06-04 14:40:47,611 - WARNING -  * Debugger is active!
+2025-06-04 14:40:47,614 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:40:49,336 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "GET /socket.io/?EIO=4&transport=polling&t=PSvuhar HTTP/1.1" 200 -
+2025-06-04 14:40:49,338 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "GET /socket.io/?EIO=4&transport=polling&t=PSvuhar HTTP/1.1" 200 -
+2025-06-04 14:40:49,340 - INFO - Client Alice connected: e8YgOX48BbT18Hn5AAAC
+2025-06-04 14:40:49,340 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "POST /socket.io/?EIO=4&transport=polling&t=PSvuhav&sid=-rHAjfMu4INLoL8SAAAA HTTP/1.1" 200 -
+2025-06-04 14:40:49,342 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "GET /socket.io/?EIO=4&transport=polling&t=PSvuhaw&sid=-rHAjfMu4INLoL8SAAAA HTTP/1.1" 200 -
+2025-06-04 14:40:49,344 - INFO - Client Alice connected: 7N-5BPrht_kh1gRYAAAD
+2025-06-04 14:40:49,344 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "POST /socket.io/?EIO=4&transport=polling&t=PSvuhay&sid=ebq-1plm6kyKXDrEAAAB HTTP/1.1" 200 -
+2025-06-04 14:40:49,345 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "GET /socket.io/?EIO=4&transport=polling&t=PSvuhaz&sid=ebq-1plm6kyKXDrEAAAB HTTP/1.1" 200 -
+2025-06-04 14:40:49,347 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "GET /socket.io/?EIO=4&transport=polling&t=PSvuhb1&sid=-rHAjfMu4INLoL8SAAAA HTTP/1.1" 200 -
+2025-06-04 14:40:49,367 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:49] "GET /socket.io/?EIO=4&transport=polling&t=PSvuhb3&sid=ebq-1plm6kyKXDrEAAAB HTTP/1.1" 200 -
+2025-06-04 14:40:50,952 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:50] "GET / HTTP/1.1" 200 -
+2025-06-04 14:40:51,087 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:51] "GET /socket.io/?EIO=4&transport=polling&t=PSvui0E HTTP/1.1" 200 -
+2025-06-04 14:40:51,104 - INFO - Client Alice connected: vTGT_MmWS88VwNpDAAAF
+2025-06-04 14:40:51,104 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:51] "POST /socket.io/?EIO=4&transport=polling&t=PSvui0U&sid=_9j1114kL9QW94iAAAAE HTTP/1.1" 200 -
+2025-06-04 14:40:51,106 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:51] "GET /socket.io/?EIO=4&transport=polling&t=PSvui0U.0&sid=_9j1114kL9QW94iAAAAE HTTP/1.1" 200 -
+2025-06-04 14:40:51,118 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:51] "GET /socket.io/?EIO=4&transport=polling&t=PSvui0i&sid=_9j1114kL9QW94iAAAAE HTTP/1.1" 200 -
+2025-06-04 14:40:53,310 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:53] "GET /socket.io/?EIO=4&transport=websocket&sid=ebq-1plm6kyKXDrEAAAB HTTP/1.1" 200 -
+2025-06-04 14:40:54,357 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:54] "GET /socket.io/?EIO=4&transport=websocket&sid=-rHAjfMu4INLoL8SAAAA HTTP/1.1" 200 -
+2025-06-04 14:40:55,647 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 14:40:55,648 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 14:40:55,653 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:55] "GET /login HTTP/1.1" 200 -
+2025-06-04 14:40:55,755 - INFO - 127.0.0.1 - - [04/Jun/2025 14:40:55] "GET /socket.io/?EIO=4&transport=websocket&sid=_9j1114kL9QW94iAAAAE HTTP/1.1" 200 -
+2025-06-04 14:41:06,949 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 14:41:06,950 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 14:41:06,954 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:06] "GET / HTTP/1.1" 200 -
+2025-06-04 14:41:07,041 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:07] "GET /socket.io/?EIO=4&transport=polling&t=PSvulvW HTTP/1.1" 200 -
+2025-06-04 14:41:07,065 - INFO - Client Alice connected: C4COx1Iq5YnbQPseAAAH
+2025-06-04 14:41:07,067 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:07] "POST /socket.io/?EIO=4&transport=polling&t=PSvulvt&sid=2OtITN_HShvbLPrqAAAG HTTP/1.1" 200 -
+2025-06-04 14:41:07,067 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:07] "GET /socket.io/?EIO=4&transport=polling&t=PSvulvt.0&sid=2OtITN_HShvbLPrqAAAG HTTP/1.1" 200 -
+2025-06-04 14:41:07,073 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:07] "GET /socket.io/?EIO=4&transport=polling&t=PSvulv_&sid=2OtITN_HShvbLPrqAAAG HTTP/1.1" 200 -
+2025-06-04 14:41:17,057 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:17] "GET / HTTP/1.1" 200 -
+2025-06-04 14:41:17,206 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:17] "GET /socket.io/?EIO=4&transport=polling&t=PSvuoOK HTTP/1.1" 200 -
+2025-06-04 14:41:17,218 - INFO - Client Alice connected: 9gp21P_JfW8RWqOYAAAJ
+2025-06-04 14:41:17,218 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:17] "POST /socket.io/?EIO=4&transport=polling&t=PSvuoOW&sid=YFHZIjg7OrUQdXRXAAAI HTTP/1.1" 200 -
+2025-06-04 14:41:17,219 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:17] "GET /socket.io/?EIO=4&transport=polling&t=PSvuoOX&sid=YFHZIjg7OrUQdXRXAAAI HTTP/1.1" 200 -
+2025-06-04 14:41:17,835 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:17] "GET /socket.io/?EIO=4&transport=polling&t=PSvuoOo&sid=YFHZIjg7OrUQdXRXAAAI HTTP/1.1" 200 -
+2025-06-04 14:41:19,226 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 14:41:19,226 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 14:41:19,229 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:19] "GET /login HTTP/1.1" 200 -
+2025-06-04 14:41:19,330 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:19] "GET /socket.io/?EIO=4&transport=websocket&sid=YFHZIjg7OrUQdXRXAAAI HTTP/1.1" 200 -
+2025-06-04 14:41:26,444 - WARNING - Ðãng nh\u1eadp th\u1ea5t b\u1ea1i v\u1edbi username: David
+2025-06-04 14:41:26,445 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:26] "POST /login HTTP/1.1" 200 -
+2025-06-04 14:41:36,741 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 14:41:36,742 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 14:41:36,745 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:36] "GET / HTTP/1.1" 200 -
+2025-06-04 14:41:36,830 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:36] "GET /socket.io/?EIO=4&transport=polling&t=PSvutAy HTTP/1.1" 200 -
+2025-06-04 14:41:36,854 - INFO - Client David connected: x8rebPv08DG-XgzRAAAL
+2025-06-04 14:41:36,855 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:36] "POST /socket.io/?EIO=4&transport=polling&t=PSvutBJ&sid=nQqdex7FuyRLnjq2AAAK HTTP/1.1" 200 -
+2025-06-04 14:41:36,857 - INFO - 127.0.0.1 - - [04/Jun/2025 14:41:36] "GET /socket.io/?EIO=4&transport=polling&t=PSvutBK&sid=nQqdex7FuyRLnjq2AAAK HTTP/1.1" 200 -
+2025-06-04 14:41:38,152 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Bob v\u1edbi Bob
+2025-06-04 14:41:40,170 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Charlie v\u1edbi Charlie
+2025-06-04 14:41:40,718 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David
+2025-06-04 14:41:46,893 - INFO - File uploaded by Alice to David in room Alice-David: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 14:41:54,207 - INFO - David ð\xe3 vào ph\xf2ng Charlie-David v\u1edbi Charlie
+2025-06-04 14:41:55,088 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob
+2025-06-04 14:41:56,104 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice
+2025-06-04 14:42:14,438 - INFO - David ð\xe3 vào ph\xf2ng Charlie-David v\u1edbi Charlie
+2025-06-04 14:42:15,052 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob
+2025-06-04 14:42:15,548 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice
+2025-06-04 14:42:23,924 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob
+2025-06-04 14:42:24,507 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice
+2025-06-04 14:42:27,789 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David
+2025-06-04 14:42:28,421 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Charlie v\u1edbi Charlie
+2025-06-04 14:42:29,067 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David
+2025-06-04 14:42:29,872 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Charlie v\u1edbi Charlie
+2025-06-04 14:42:30,295 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Bob v\u1edbi Bob
+2025-06-04 14:42:31,007 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Charlie v\u1edbi Charlie
+2025-06-04 14:42:31,458 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David
+2025-06-04 14:49:13,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 14:49:13,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 14:49:13,359 - INFO -  * Restarting with stat
+2025-06-04 14:49:14,490 - WARNING -  * Debugger is active!
+2025-06-04 14:49:14,493 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 14:49:20,711 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:20] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-04 14:49:20,720 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:20] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-04 14:49:30,230 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 14:49:30,231 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:30] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-04 14:49:30,263 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:30] "GET / HTTP/1.1" 200 -
+2025-06-04 14:49:30,702 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:30] "GET /socket.io/?EIO=4&transport=polling&t=PSvwgtC HTTP/1.1" 200 -
+2025-06-04 14:49:30,707 - INFO - Client Alice connected: KVVWM6qlpyYa2EnFAAAB
+2025-06-04 14:49:30,708 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:30] "POST /socket.io/?EIO=4&transport=polling&t=PSvwgtH&sid=YXJoRY1TUCG-ba_iAAAA HTTP/1.1" 200 -
+2025-06-04 14:49:30,710 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:30] "GET /socket.io/?EIO=4&transport=polling&t=PSvwgtI&sid=YXJoRY1TUCG-ba_iAAAA HTTP/1.1" 200 -
+2025-06-04 14:49:30,725 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:30] "GET /socket.io/?EIO=4&transport=polling&t=PSvwgtZ&sid=YXJoRY1TUCG-ba_iAAAA HTTP/1.1" 200 -
+2025-06-04 14:49:44,856 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:44] "GET / HTTP/1.1" 200 -
+2025-06-04 14:49:45,002 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:45] "GET /socket.io/?EIO=4&transport=polling&t=PSvwkMe HTTP/1.1" 200 -
+2025-06-04 14:49:45,018 - INFO - Client Alice connected: z_ZHjGyd_3PA7SzeAAAD
+2025-06-04 14:49:45,018 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:45] "POST /socket.io/?EIO=4&transport=polling&t=PSvwkMu&sid=14plZZATiLUksVoHAAAC HTTP/1.1" 200 -
+2025-06-04 14:49:45,021 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:45] "GET /socket.io/?EIO=4&transport=polling&t=PSvwkMu.0&sid=14plZZATiLUksVoHAAAC HTTP/1.1" 200 -
+2025-06-04 14:49:45,040 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:45] "GET /socket.io/?EIO=4&transport=polling&t=PSvwkNB&sid=14plZZATiLUksVoHAAAC HTTP/1.1" 200 -
+2025-06-04 14:49:46,320 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 14:49:46,321 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 14:49:46,325 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:46] "GET /login HTTP/1.1" 200 -
+2025-06-04 14:49:46,426 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:46] "GET /socket.io/?EIO=4&transport=websocket&sid=14plZZATiLUksVoHAAAC HTTP/1.1" 200 -
+2025-06-04 14:49:56,252 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 14:49:56,252 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 14:49:56,256 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:56] "GET / HTTP/1.1" 200 -
+2025-06-04 14:49:56,342 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:56] "GET /socket.io/?EIO=4&transport=polling&t=PSvwn7q HTTP/1.1" 200 -
+2025-06-04 14:49:56,363 - INFO - Client David connected: c29CUE-Ip4Lq2ZtkAAAF
+2025-06-04 14:49:56,363 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:56] "POST /socket.io/?EIO=4&transport=polling&t=PSvwn89&sid=tjQDM48vHBsLB2NIAAAE HTTP/1.1" 200 -
+2025-06-04 14:49:56,365 - INFO - 172.16.10.243 - - [04/Jun/2025 14:49:56] "GET /socket.io/?EIO=4&transport=polling&t=PSvwn89.0&sid=tjQDM48vHBsLB2NIAAAE HTTP/1.1" 200 -
+2025-06-04 14:50:02,270 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice
+2025-06-04 14:50:09,655 - INFO - File uploaded by David to Alice in room Alice-David: output.txt, Hash: 7bd0f541021c1790571fd9650c4ec17a7df420606b8e7214775f5bf08e8a677f, Size: 64 bytes
+2025-06-04 14:50:13,767 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David
+2025-06-04 14:50:37,674 - INFO - David ð\xe3 vào ph\xf2ng Charlie-David v\u1edbi Charlie
+2025-06-04 14:50:38,216 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob
+2025-06-04 14:50:39,163 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice
+2025-06-04 14:51:51,009 - INFO - 172.16.10.243 - - [04/Jun/2025 14:51:51] "GET /socket.io/?EIO=4&transport=websocket&sid=YXJoRY1TUCG-ba_iAAAA HTTP/1.1" 200 -
+2025-06-04 14:51:52,157 - INFO - 172.16.10.243 - - [04/Jun/2025 14:51:52] "GET /socket.io/?EIO=4&transport=websocket&sid=tjQDM48vHBsLB2NIAAAE HTTP/1.1" 200 -
+2025-06-04 15:01:39,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:01:39,784 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:01:39,784 - INFO -  * Restarting with stat
+2025-06-04 15:01:40,892 - WARNING -  * Debugger is active!
+2025-06-04 15:01:40,895 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:01:43,984 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:43] "GET / HTTP/1.1" 200 -
+2025-06-04 15:01:44,117 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:44] "GET /socket.io/?EIO=4&transport=polling&t=PSvzTwq HTTP/1.1" 200 -
+2025-06-04 15:01:44,134 - INFO - Client David connected: t_ksvqI2VT5kTOnaAAAB
+2025-06-04 15:01:44,134 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:44] "POST /socket.io/?EIO=4&transport=polling&t=PSvzTx3&sid=YTLD0KpDW4JpPsGYAAAA HTTP/1.1" 200 -
+2025-06-04 15:01:44,136 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:44] "GET /socket.io/?EIO=4&transport=polling&t=PSvzTx4&sid=YTLD0KpDW4JpPsGYAAAA HTTP/1.1" 200 -
+2025-06-04 15:01:44,147 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:44] "GET /socket.io/?EIO=4&transport=polling&t=PSvzTxI&sid=YTLD0KpDW4JpPsGYAAAA HTTP/1.1" 200 -
+2025-06-04 15:01:46,803 - INFO - Ngý\u1eddi dùng David ðãng xu\u1ea5t
+2025-06-04 15:01:46,803 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:01:46,808 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:46] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:01:46,884 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:46] "GET /socket.io/?EIO=4&transport=websocket&sid=YTLD0KpDW4JpPsGYAAAA HTTP/1.1" 200 -
+2025-06-04 15:01:56,891 - WARNING - Ðãng nh\u1eadp th\u1ea5t b\u1ea1i v\u1edbi username: Alice 
+2025-06-04 15:01:56,892 - INFO - 127.0.0.1 - - [04/Jun/2025 15:01:56] "POST /login HTTP/1.1" 200 -
+2025-06-04 15:02:08,082 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 15:02:08,082 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:02:08,086 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:08] "GET / HTTP/1.1" 200 -
+2025-06-04 15:02:08,174 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PSvzZoi HTTP/1.1" 200 -
+2025-06-04 15:02:08,186 - INFO - Client Alice connected: Y4IRos17QjkzbZ--AAAD
+2025-06-04 15:02:08,186 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:08] "POST /socket.io/?EIO=4&transport=polling&t=PSvzZou&sid=4UfkuocS1pfbp_oGAAAC HTTP/1.1" 200 -
+2025-06-04 15:02:08,188 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PSvzZou.0&sid=4UfkuocS1pfbp_oGAAAC HTTP/1.1" 200 -
+2025-06-04 15:02:08,192 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PSvzZo_&sid=4UfkuocS1pfbp_oGAAAC HTTP/1.1" 200 -
+2025-06-04 15:02:20,556 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:20] "GET / HTTP/1.1" 200 -
+2025-06-04 15:02:20,712 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PSvzcsa HTTP/1.1" 200 -
+2025-06-04 15:02:20,723 - INFO - Client Alice connected: izSaeNzeOYkks2TnAAAF
+2025-06-04 15:02:20,723 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:20] "POST /socket.io/?EIO=4&transport=polling&t=PSvzcsm&sid=8qgwNefVAA6oo5_GAAAE HTTP/1.1" 200 -
+2025-06-04 15:02:20,724 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PSvzcsn&sid=8qgwNefVAA6oo5_GAAAE HTTP/1.1" 200 -
+2025-06-04 15:02:22,093 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:22] "GET /socket.io/?EIO=4&transport=polling&t=PSvzct1&sid=8qgwNefVAA6oo5_GAAAE HTTP/1.1" 200 -
+2025-06-04 15:02:23,490 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 15:02:23,491 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:02:23,493 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:23] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:02:23,595 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:23] "GET /socket.io/?EIO=4&transport=websocket&sid=8qgwNefVAA6oo5_GAAAE HTTP/1.1" 200 -
+2025-06-04 15:02:34,070 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 15:02:34,071 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:02:34,074 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:34] "GET / HTTP/1.1" 200 -
+2025-06-04 15:02:34,161 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:34] "GET /socket.io/?EIO=4&transport=polling&t=PSvzg8j HTTP/1.1" 200 -
+2025-06-04 15:02:34,183 - INFO - Client David connected: 8V4ozDZLfIVAaq2IAAAH
+2025-06-04 15:02:34,183 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:34] "POST /socket.io/?EIO=4&transport=polling&t=PSvzg94&sid=m-G52BRIELBDxBstAAAG HTTP/1.1" 200 -
+2025-06-04 15:02:34,185 - INFO - 127.0.0.1 - - [04/Jun/2025 15:02:34] "GET /socket.io/?EIO=4&transport=polling&t=PSvzg94.0&sid=m-G52BRIELBDxBstAAAG HTTP/1.1" 200 -
+2025-06-04 15:02:37,367 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:02:45,146 - INFO - File uploaded by David to Alice in room Alice-David: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 15:02:50,353 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Bob v\u1edbi Bob, loaded 0 files
+2025-06-04 15:02:53,225 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 1 files
+2025-06-04 15:03:16,673 - INFO - File downloaded by David in room Alice-David: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1
+2025-06-04 15:03:29,057 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob, loaded 0 files
+2025-06-04 15:03:30,119 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 1 files
+2025-06-04 15:03:33,381 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Charlie v\u1edbi Charlie, loaded 0 files
+2025-06-04 15:03:34,092 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Bob v\u1edbi Bob, loaded 0 files
+2025-06-04 15:03:36,737 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 1 files
+2025-06-04 15:17:31,482 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:17:31,482 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:17:31,482 - INFO -  * Restarting with stat
+2025-06-04 15:17:32,632 - WARNING -  * Debugger is active!
+2025-06-04 15:17:32,635 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:17:32,816 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:32] "GET /socket.io/?EIO=4&transport=polling&t=PSw15Qe HTTP/1.1" 200 -
+2025-06-04 15:17:32,821 - INFO - Client David connected: hpnqXBpwUH5uid6CAAAB
+2025-06-04 15:17:32,821 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:32] "POST /socket.io/?EIO=4&transport=polling&t=PSw15YJ&sid=Mq4cnKvY_haDYogYAAAA HTTP/1.1" 200 -
+2025-06-04 15:17:32,823 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:32] "GET /socket.io/?EIO=4&transport=polling&t=PSw15YK&sid=Mq4cnKvY_haDYogYAAAA HTTP/1.1" 200 -
+2025-06-04 15:17:37,339 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:37] "GET /socket.io/?EIO=4&transport=polling&t=PSw16ew HTTP/1.1" 200 -
+2025-06-04 15:17:37,344 - INFO - Client David connected: jpYbmqOvcJ4Z-aPxAAAD
+2025-06-04 15:17:37,344 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:37] "POST /socket.io/?EIO=4&transport=polling&t=PSw16e_&sid=0Ribe56SjUghqpn-AAAC HTTP/1.1" 200 -
+2025-06-04 15:17:37,346 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:37] "GET /socket.io/?EIO=4&transport=polling&t=PSw16f0&sid=0Ribe56SjUghqpn-AAAC HTTP/1.1" 200 -
+2025-06-04 15:17:45,575 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:45] "GET / HTTP/1.1" 200 -
+2025-06-04 15:17:45,712 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:45] "GET /socket.io/?EIO=4&transport=polling&t=PSw18hl HTTP/1.1" 200 -
+2025-06-04 15:17:45,729 - INFO - Client David connected: RUSqu3dnlERSopLJAAAF
+2025-06-04 15:17:45,730 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:45] "POST /socket.io/?EIO=4&transport=polling&t=PSw18h-&sid=NjZQGn-18sF2KMfdAAAE HTTP/1.1" 200 -
+2025-06-04 15:17:45,732 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:45] "GET /socket.io/?EIO=4&transport=polling&t=PSw18h_&sid=NjZQGn-18sF2KMfdAAAE HTTP/1.1" 200 -
+2025-06-04 15:17:45,744 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:45] "GET /socket.io/?EIO=4&transport=polling&t=PSw18iD&sid=NjZQGn-18sF2KMfdAAAE HTTP/1.1" 200 -
+2025-06-04 15:17:47,377 - INFO - Ngý\u1eddi dùng David ðãng xu\u1ea5t
+2025-06-04 15:17:47,377 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:17:47,382 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:47] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:17:47,456 - INFO - 172.16.10.243 - - [04/Jun/2025 15:17:47] "GET /socket.io/?EIO=4&transport=websocket&sid=NjZQGn-18sF2KMfdAAAE HTTP/1.1" 200 -
+2025-06-04 15:17:54,744 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:54] "GET /socket.io/?EIO=4&transport=websocket&sid=Mq4cnKvY_haDYogYAAAA HTTP/1.1" 200 -
+2025-06-04 15:17:55,771 - INFO - 127.0.0.1 - - [04/Jun/2025 15:17:55] "GET /socket.io/?EIO=4&transport=websocket&sid=0Ribe56SjUghqpn-AAAC HTTP/1.1" 200 -
+2025-06-04 15:18:10,133 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 15:18:10,134 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:18:10,138 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:10] "GET / HTTP/1.1" 200 -
+2025-06-04 15:18:10,220 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:10] "GET /socket.io/?EIO=4&transport=polling&t=PSw1Egg HTTP/1.1" 200 -
+2025-06-04 15:18:10,244 - INFO - Client David connected: H40UH9xThW9L4eAcAAAH
+2025-06-04 15:18:10,244 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:10] "POST /socket.io/?EIO=4&transport=polling&t=PSw1Eh2&sid=DrIdcPGJTLmNpLwuAAAG HTTP/1.1" 200 -
+2025-06-04 15:18:10,246 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:10] "GET /socket.io/?EIO=4&transport=polling&t=PSw1Eh2.0&sid=DrIdcPGJTLmNpLwuAAAG HTTP/1.1" 200 -
+2025-06-04 15:18:28,492 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:28] "GET / HTTP/1.1" 200 -
+2025-06-04 15:18:28,638 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:28] "GET /socket.io/?EIO=4&transport=polling&t=PSw1JAQ HTTP/1.1" 200 -
+2025-06-04 15:18:28,652 - INFO - Client David connected: UGEDc07QrKGrdrrjAAAJ
+2025-06-04 15:18:28,653 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:28] "POST /socket.io/?EIO=4&transport=polling&t=PSw1JAf&sid=iNv8uYjOkiBkorapAAAI HTTP/1.1" 200 -
+2025-06-04 15:18:28,654 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:28] "GET /socket.io/?EIO=4&transport=polling&t=PSw1JAg&sid=iNv8uYjOkiBkorapAAAI HTTP/1.1" 200 -
+2025-06-04 15:18:28,667 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:28] "GET /socket.io/?EIO=4&transport=polling&t=PSw1JAv&sid=iNv8uYjOkiBkorapAAAI HTTP/1.1" 200 -
+2025-06-04 15:18:31,702 - INFO - Ngý\u1eddi dùng David ðãng xu\u1ea5t
+2025-06-04 15:18:31,703 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:18:31,706 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:31] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:18:31,805 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:31] "GET /socket.io/?EIO=4&transport=websocket&sid=iNv8uYjOkiBkorapAAAI HTTP/1.1" 200 -
+2025-06-04 15:18:46,669 - WARNING - Ðãng nh\u1eadp th\u1ea5t b\u1ea1i v\u1edbi username: Alice
+2025-06-04 15:18:46,670 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:46] "POST /login HTTP/1.1" 200 -
+2025-06-04 15:18:55,424 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 15:18:55,425 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:18:55,428 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:55] "GET / HTTP/1.1" 200 -
+2025-06-04 15:18:55,516 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:55] "GET /socket.io/?EIO=4&transport=polling&t=PSw1PkR HTTP/1.1" 200 -
+2025-06-04 15:18:55,526 - INFO - Client Alice connected: jwMFaIEfIZOyG20dAAAL
+2025-06-04 15:18:55,527 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:55] "POST /socket.io/?EIO=4&transport=polling&t=PSw1Pkb&sid=mM4hDBk20DlFwVJgAAAK HTTP/1.1" 200 -
+2025-06-04 15:18:55,529 - INFO - 172.16.10.243 - - [04/Jun/2025 15:18:55] "GET /socket.io/?EIO=4&transport=polling&t=PSw1Pkb.0&sid=mM4hDBk20DlFwVJgAAAK HTTP/1.1" 200 -
+2025-06-04 15:19:01,898 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-Bob v\u1edbi Bob, loaded 0 files
+2025-06-04 15:19:03,061 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 0 files
+2025-06-04 15:19:12,491 - ERROR - Hash mismatch for data.txt: Server fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Client 
+2025-06-04 15:19:18,560 - ERROR - Hash mismatch for output.txt: Server 7bd0f541021c1790571fd9650c4ec17a7df420606b8e7214775f5bf08e8a677f, Client 
+2025-06-04 15:19:29,013 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:19:32,818 - ERROR - Hash mismatch for output.txt: Server 7bd0f541021c1790571fd9650c4ec17a7df420606b8e7214775f5bf08e8a677f, Client 
+2025-06-04 15:20:04,400 - INFO -  * Detected change in 'd:\\Python\\TruyenFileSHA-256\\app.py', reloading
+2025-06-04 15:20:04,430 - INFO -  * Restarting with stat
+2025-06-04 15:20:05,604 - WARNING -  * Debugger is active!
+2025-06-04 15:20:05,607 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:20:05,789 - INFO - 172.16.10.243 - - [04/Jun/2025 15:20:05] "GET /socket.io/?EIO=4&transport=polling&t=PSw1gnP HTTP/1.1" 200 -
+2025-06-04 15:20:05,795 - INFO - Client Alice connected: _L4xRwzpIZG8s08tAAAB
+2025-06-04 15:20:05,795 - INFO - 172.16.10.243 - - [04/Jun/2025 15:20:05] "POST /socket.io/?EIO=4&transport=polling&t=PSw1guW&sid=kDAI0YK1Kxcx_8fsAAAA HTTP/1.1" 200 -
+2025-06-04 15:20:05,797 - INFO - 172.16.10.243 - - [04/Jun/2025 15:20:05] "GET /socket.io/?EIO=4&transport=polling&t=PSw1guX&sid=kDAI0YK1Kxcx_8fsAAAA HTTP/1.1" 200 -
+2025-06-04 15:20:06,335 - INFO - 172.16.10.243 - - [04/Jun/2025 15:20:06] "GET /socket.io/?EIO=4&transport=polling&t=PSw1h0y HTTP/1.1" 200 -
+2025-06-04 15:20:06,340 - INFO - Client Alice connected: iufL_vQNCI4kxX0rAAAD
+2025-06-04 15:20:06,340 - INFO - 172.16.10.243 - - [04/Jun/2025 15:20:06] "POST /socket.io/?EIO=4&transport=polling&t=PSw1h12&sid=xEOm8P1Yo43QpDNsAAAC HTTP/1.1" 200 -
+2025-06-04 15:20:06,341 - INFO - 172.16.10.243 - - [04/Jun/2025 15:20:06] "GET /socket.io/?EIO=4&transport=polling&t=PSw1h12.0&sid=xEOm8P1Yo43QpDNsAAAC HTTP/1.1" 200 -
+2025-06-04 15:25:18,742 - INFO -  * Detected change in 'd:\\Python\\TruyenFileSHA-256\\app.py', reloading
+2025-06-04 15:25:18,777 - INFO -  * Restarting with stat
+2025-06-04 15:25:19,924 - WARNING -  * Debugger is active!
+2025-06-04 15:25:19,927 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:25:20,335 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "GET /socket.io/?EIO=4&transport=polling&t=PSw2thC HTTP/1.1" 200 -
+2025-06-04 15:25:20,338 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "GET /socket.io/?EIO=4&transport=polling&t=PSw2thC HTTP/1.1" 200 -
+2025-06-04 15:25:20,340 - INFO - Client Alice connected: GhQ5aUeCyZrsZJURAAAC
+2025-06-04 15:25:20,340 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "POST /socket.io/?EIO=4&transport=polling&t=PSw2thI&sid=HNgIVc_0k7kTKsmGAAAA HTTP/1.1" 200 -
+2025-06-04 15:25:20,342 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "GET /socket.io/?EIO=4&transport=polling&t=PSw2thJ&sid=HNgIVc_0k7kTKsmGAAAA HTTP/1.1" 200 -
+2025-06-04 15:25:20,344 - INFO - Client Alice connected: 5KX9JAK4gsRyIcBXAAAD
+2025-06-04 15:25:20,345 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "POST /socket.io/?EIO=4&transport=polling&t=PSw2thL&sid=ybdaaAbtRcOQQ9sjAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:20,345 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "GET /socket.io/?EIO=4&transport=polling&t=PSw2thL.0&sid=ybdaaAbtRcOQQ9sjAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:20,346 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "GET /socket.io/?EIO=4&transport=polling&t=PSw2thO&sid=HNgIVc_0k7kTKsmGAAAA HTTP/1.1" 200 -
+2025-06-04 15:25:20,364 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:20] "GET /socket.io/?EIO=4&transport=polling&t=PSw2thS&sid=ybdaaAbtRcOQQ9sjAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:24,750 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:25:24,750 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:25:24,751 - INFO -  * Restarting with stat
+2025-06-04 15:25:25,888 - WARNING -  * Debugger is active!
+2025-06-04 15:25:25,891 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:25:26,330 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PSw2v8u HTTP/1.1" 200 -
+2025-06-04 15:25:26,333 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PSw2v8u HTTP/1.1" 200 -
+2025-06-04 15:25:26,334 - INFO - Client Alice connected: BtAY2RtOSdxovXLQAAAC
+2025-06-04 15:25:26,335 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "POST /socket.io/?EIO=4&transport=polling&t=PSw2v8y&sid=4Hrt1AYLj2t0ZnXMAAAA HTTP/1.1" 200 -
+2025-06-04 15:25:26,337 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PSw2v8z&sid=4Hrt1AYLj2t0ZnXMAAAA HTTP/1.1" 200 -
+2025-06-04 15:25:26,338 - INFO - Client Alice connected: 1h8BwbzFuu30qs7FAAAD
+2025-06-04 15:25:26,338 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "POST /socket.io/?EIO=4&transport=polling&t=PSw2v8_&sid=AyUX-sw8Q0Cf1wJxAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:26,339 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PSw2v8_.0&sid=AyUX-sw8Q0Cf1wJxAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:26,348 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PSw2v97&sid=AyUX-sw8Q0Cf1wJxAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:31,009 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:31] "GET / HTTP/1.1" 200 -
+2025-06-04 15:25:31,145 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:31] "GET /socket.io/?EIO=4&transport=polling&t=PSw2wK9 HTTP/1.1" 200 -
+2025-06-04 15:25:31,162 - INFO - Client Alice connected: tU9jNWxRFPj9p_mWAAAF
+2025-06-04 15:25:31,162 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:31] "POST /socket.io/?EIO=4&transport=polling&t=PSw2wKO&sid=-urlcNr0lcJezciKAAAE HTTP/1.1" 200 -
+2025-06-04 15:25:31,166 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:31] "GET /socket.io/?EIO=4&transport=polling&t=PSw2wKO.0&sid=-urlcNr0lcJezciKAAAE HTTP/1.1" 200 -
+2025-06-04 15:25:31,176 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:31] "GET /socket.io/?EIO=4&transport=polling&t=PSw2wKd&sid=-urlcNr0lcJezciKAAAE HTTP/1.1" 200 -
+2025-06-04 15:25:32,888 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:32] "GET /socket.io/?EIO=4&transport=websocket&sid=4Hrt1AYLj2t0ZnXMAAAA HTTP/1.1" 200 -
+2025-06-04 15:25:36,796 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:36] "GET /socket.io/?EIO=4&transport=websocket&sid=AyUX-sw8Q0Cf1wJxAAAB HTTP/1.1" 200 -
+2025-06-04 15:25:43,825 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:43] "GET / HTTP/1.1" 200 -
+2025-06-04 15:25:43,976 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:43] "GET /socket.io/?EIO=4&transport=polling&t=PSw2zSd HTTP/1.1" 200 -
+2025-06-04 15:25:43,992 - INFO - Client Alice connected: WqMWZjSrl82tagYSAAAH
+2025-06-04 15:25:43,993 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:43] "POST /socket.io/?EIO=4&transport=polling&t=PSw2zSs&sid=Tm91dx0vEzFS_FoPAAAG HTTP/1.1" 200 -
+2025-06-04 15:25:43,994 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:43] "GET /socket.io/?EIO=4&transport=polling&t=PSw2zSt&sid=Tm91dx0vEzFS_FoPAAAG HTTP/1.1" 200 -
+2025-06-04 15:25:44,007 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:44] "GET /socket.io/?EIO=4&transport=polling&t=PSw2zT4&sid=Tm91dx0vEzFS_FoPAAAG HTTP/1.1" 200 -
+2025-06-04 15:25:45,221 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 15:25:45,221 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:25:45,227 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:45] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:25:45,327 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:45] "GET /socket.io/?EIO=4&transport=websocket&sid=Tm91dx0vEzFS_FoPAAAG HTTP/1.1" 200 -
+2025-06-04 15:25:54,473 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 15:25:54,474 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:25:54,478 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:54] "GET / HTTP/1.1" 200 -
+2025-06-04 15:25:54,565 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:54] "GET /socket.io/?EIO=4&transport=polling&t=PSw3023 HTTP/1.1" 200 -
+2025-06-04 15:25:54,589 - INFO - Client David connected: CeV_Fd8-___9D_FfAAAJ
+2025-06-04 15:25:54,589 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:54] "POST /socket.io/?EIO=4&transport=polling&t=PSw302Q&sid=CkB1oy3OAdAFaAnLAAAI HTTP/1.1" 200 -
+2025-06-04 15:25:54,605 - INFO - 172.16.10.243 - - [04/Jun/2025 15:25:54] "GET /socket.io/?EIO=4&transport=polling&t=PSw302R&sid=CkB1oy3OAdAFaAnLAAAI HTTP/1.1" 200 -
+2025-06-04 15:26:01,083 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:26:04,935 - INFO - Saved file output.txt with size 64 bytes
+2025-06-04 15:26:04,937 - ERROR - Hash mismatch for output.txt: Server 7bd0f541021c1790571fd9650c4ec17a7df420606b8e7214775f5bf08e8a677f, Client 
+2025-06-04 15:26:09,995 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 0 files
+2025-06-04 15:26:18,544 - INFO - Saved file data.txt with size 1580 bytes
+2025-06-04 15:26:18,545 - ERROR - Hash mismatch for data.txt: Server fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Client 
+2025-06-04 15:27:02,714 - INFO - Saved file Hoang.txt with size 45 bytes
+2025-06-04 15:27:02,722 - ERROR - Hash mismatch for Hoang.txt: Server ac00a4e0f13d317e8a2855f23c4a79b9e6091c2fc70809607e520d38057251e5, Client 
+2025-06-04 15:29:00,636 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:29:00,636 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:29:00,636 - INFO -  * Restarting with stat
+2025-06-04 15:29:01,768 - WARNING -  * Debugger is active!
+2025-06-04 15:29:01,771 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:29:01,953 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "GET /socket.io/?EIO=4&transport=polling&t=PSw3jOg HTTP/1.1" 200 -
+2025-06-04 15:29:01,955 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "GET /socket.io/?EIO=4&transport=polling&t=PSw3jOg HTTP/1.1" 200 -
+2025-06-04 15:29:01,958 - INFO - Client David connected: B9uVKMg1MGR0bpmEAAAC
+2025-06-04 15:29:01,959 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "POST /socket.io/?EIO=4&transport=polling&t=PSw3jo4&sid=8URsPi9JuKQ1K27dAAAA HTTP/1.1" 200 -
+2025-06-04 15:29:01,961 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "GET /socket.io/?EIO=4&transport=polling&t=PSw3jo5&sid=8URsPi9JuKQ1K27dAAAA HTTP/1.1" 200 -
+2025-06-04 15:29:01,962 - INFO - Client David connected: 8z-8bc8qzTYaQpxxAAAD
+2025-06-04 15:29:01,963 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "POST /socket.io/?EIO=4&transport=polling&t=PSw3jo6&sid=Ut9Y41GhZPyeoQIgAAAB HTTP/1.1" 200 -
+2025-06-04 15:29:01,963 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "GET /socket.io/?EIO=4&transport=polling&t=PSw3jo7&sid=Ut9Y41GhZPyeoQIgAAAB HTTP/1.1" 200 -
+2025-06-04 15:29:01,972 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:01] "GET /socket.io/?EIO=4&transport=polling&t=PSw3joD&sid=Ut9Y41GhZPyeoQIgAAAB HTTP/1.1" 200 -
+2025-06-04 15:29:04,336 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:04] "GET / HTTP/1.1" 200 -
+2025-06-04 15:29:04,478 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:04] "GET /socket.io/?EIO=4&transport=polling&t=PSw3kPS HTTP/1.1" 200 -
+2025-06-04 15:29:04,495 - INFO - Client David connected: DZ82FPd0uBsQJDyoAAAF
+2025-06-04 15:29:04,495 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:04] "POST /socket.io/?EIO=4&transport=polling&t=PSw3kPj&sid=4VPwTtzkNaaK6Dr7AAAE HTTP/1.1" 200 -
+2025-06-04 15:29:04,498 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:04] "GET /socket.io/?EIO=4&transport=polling&t=PSw3kPk&sid=4VPwTtzkNaaK6Dr7AAAE HTTP/1.1" 200 -
+2025-06-04 15:29:04,513 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:04] "GET /socket.io/?EIO=4&transport=polling&t=PSw3kP-&sid=4VPwTtzkNaaK6Dr7AAAE HTTP/1.1" 200 -
+2025-06-04 15:29:07,336 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:07] "GET /socket.io/?EIO=4&transport=websocket&sid=4VPwTtzkNaaK6Dr7AAAE HTTP/1.1" 200 -
+2025-06-04 15:29:27,679 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:27] "GET /socket.io/?EIO=4&transport=websocket&sid=Ut9Y41GhZPyeoQIgAAAB HTTP/1.1" 200 -
+2025-06-04 15:29:28,550 - INFO - 172.16.10.243 - - [04/Jun/2025 15:29:28] "GET /socket.io/?EIO=4&transport=websocket&sid=8URsPi9JuKQ1K27dAAAA HTTP/1.1" 200 -
+2025-06-04 15:29:32,747 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:32] "GET / HTTP/1.1" 200 -
+2025-06-04 15:29:32,887 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:32] "GET /socket.io/?EIO=4&transport=polling&t=PSw3rLJ HTTP/1.1" 200 -
+2025-06-04 15:29:32,902 - INFO - Client David connected: 37ySsVMKq4DtBQz4AAAH
+2025-06-04 15:29:32,902 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:32] "POST /socket.io/?EIO=4&transport=polling&t=PSw3rLa&sid=qDc-5gPmJ8I2o_NpAAAG HTTP/1.1" 200 -
+2025-06-04 15:29:32,904 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:32] "GET /socket.io/?EIO=4&transport=polling&t=PSw3rLa.0&sid=qDc-5gPmJ8I2o_NpAAAG HTTP/1.1" 200 -
+2025-06-04 15:29:32,916 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:32] "GET /socket.io/?EIO=4&transport=polling&t=PSw3rLo&sid=qDc-5gPmJ8I2o_NpAAAG HTTP/1.1" 200 -
+2025-06-04 15:29:35,180 - INFO - Ngý\u1eddi dùng David ðãng xu\u1ea5t
+2025-06-04 15:29:35,180 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:29:35,185 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:35] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:29:35,285 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:35] "GET /socket.io/?EIO=4&transport=websocket&sid=qDc-5gPmJ8I2o_NpAAAG HTTP/1.1" 200 -
+2025-06-04 15:29:44,087 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 15:29:44,087 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:29:44,091 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:44] "GET / HTTP/1.1" 200 -
+2025-06-04 15:29:44,175 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:44] "GET /socket.io/?EIO=4&transport=polling&t=PSw3u5j HTTP/1.1" 200 -
+2025-06-04 15:29:44,197 - INFO - Client Alice connected: xkZcmmQLC7zqHtWDAAAJ
+2025-06-04 15:29:44,198 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:44] "POST /socket.io/?EIO=4&transport=polling&t=PSw3u63&sid=3kBsmkCijd8wZxyoAAAI HTTP/1.1" 200 -
+2025-06-04 15:29:44,200 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:44] "GET /socket.io/?EIO=4&transport=polling&t=PSw3u63.0&sid=3kBsmkCijd8wZxyoAAAI HTTP/1.1" 200 -
+2025-06-04 15:29:44,205 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:44] "GET /socket.io/?EIO=4&transport=polling&t=PSw3u6B&sid=3kBsmkCijd8wZxyoAAAI HTTP/1.1" 200 -
+2025-06-04 15:29:49,708 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:49] "GET / HTTP/1.1" 200 -
+2025-06-04 15:29:49,860 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:49] "GET /socket.io/?EIO=4&transport=polling&t=PSw3vUX HTTP/1.1" 200 -
+2025-06-04 15:29:49,871 - INFO - Client Alice connected: 0uef_sikJRM9qwbYAAAL
+2025-06-04 15:29:49,871 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:49] "POST /socket.io/?EIO=4&transport=polling&t=PSw3vUi&sid=2fxOfLrQxw5Dh0xiAAAK HTTP/1.1" 200 -
+2025-06-04 15:29:49,872 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:49] "GET /socket.io/?EIO=4&transport=polling&t=PSw3vUj&sid=2fxOfLrQxw5Dh0xiAAAK HTTP/1.1" 200 -
+2025-06-04 15:29:50,454 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:50] "GET /socket.io/?EIO=4&transport=polling&t=PSw3vU-&sid=2fxOfLrQxw5Dh0xiAAAK HTTP/1.1" 200 -
+2025-06-04 15:29:51,917 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 15:29:51,918 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:29:51,920 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:51] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:29:52,023 - INFO - 127.0.0.1 - - [04/Jun/2025 15:29:52] "GET /socket.io/?EIO=4&transport=websocket&sid=2fxOfLrQxw5Dh0xiAAAK HTTP/1.1" 200 -
+2025-06-04 15:30:05,651 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 15:30:05,651 - INFO - 127.0.0.1 - - [04/Jun/2025 15:30:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:30:05,655 - INFO - 127.0.0.1 - - [04/Jun/2025 15:30:05] "GET / HTTP/1.1" 200 -
+2025-06-04 15:30:05,743 - INFO - 127.0.0.1 - - [04/Jun/2025 15:30:05] "GET /socket.io/?EIO=4&transport=polling&t=PSw3zMh HTTP/1.1" 200 -
+2025-06-04 15:30:05,766 - INFO - Client David connected: pnZhAd70o4QyJIhiAAAN
+2025-06-04 15:30:05,766 - INFO - 127.0.0.1 - - [04/Jun/2025 15:30:05] "POST /socket.io/?EIO=4&transport=polling&t=PSw3zN3&sid=cooVuNo_8KhW93iVAAAM HTTP/1.1" 200 -
+2025-06-04 15:30:05,768 - INFO - 127.0.0.1 - - [04/Jun/2025 15:30:05] "GET /socket.io/?EIO=4&transport=polling&t=PSw3zN3.0&sid=cooVuNo_8KhW93iVAAAM HTTP/1.1" 200 -
+2025-06-04 15:30:05,773 - INFO - 127.0.0.1 - - [04/Jun/2025 15:30:05] "GET /socket.io/?EIO=4&transport=polling&t=PSw3zNB&sid=cooVuNo_8KhW93iVAAAM HTTP/1.1" 200 -
+2025-06-04 15:30:08,864 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:30:14,840 - INFO - File uploaded by David to Alice in room Alice-David: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 15:30:20,242 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 1 files
+2025-06-04 15:36:57,056 - INFO -  * Detected change in 'D:\\Python\\TruyenFileSHA-256\\app.py', reloading
+2025-06-04 15:36:57,088 - INFO -  * Restarting with stat
+2025-06-04 15:36:58,253 - WARNING -  * Debugger is active!
+2025-06-04 15:36:58,256 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:36:58,454 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PSw5Y5W HTTP/1.1" 200 -
+2025-06-04 15:36:58,457 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PSw5Y5W HTTP/1.1" 200 -
+2025-06-04 15:36:58,459 - INFO - Client David connected: gRnOBKbX11W_VD30AAAC
+2025-06-04 15:36:58,459 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "POST /socket.io/?EIO=4&transport=polling&t=PSw5Y7P&sid=lHSczTjb63PhqZKKAAAA HTTP/1.1" 200 -
+2025-06-04 15:36:58,461 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PSw5Y7Q&sid=lHSczTjb63PhqZKKAAAA HTTP/1.1" 200 -
+2025-06-04 15:36:58,463 - INFO - Client David connected: FwNk73XV89XzDhgXAAAD
+2025-06-04 15:36:58,464 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "POST /socket.io/?EIO=4&transport=polling&t=PSw5Y7S&sid=g57ia5XC4lWRw5MuAAAB HTTP/1.1" 200 -
+2025-06-04 15:36:58,466 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PSw5Y7S.0&sid=g57ia5XC4lWRw5MuAAAB HTTP/1.1" 200 -
+2025-06-04 15:36:58,466 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PSw5Y7V&sid=lHSczTjb63PhqZKKAAAA HTTP/1.1" 200 -
+2025-06-04 15:36:58,475 - INFO - 127.0.0.1 - - [04/Jun/2025 15:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PSw5Y7b&sid=g57ia5XC4lWRw5MuAAAB HTTP/1.1" 200 -
+2025-06-04 15:37:02,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:37:02,434 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:37:02,434 - INFO -  * Restarting with stat
+2025-06-04 15:37:03,555 - WARNING -  * Debugger is active!
+2025-06-04 15:37:03,558 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:37:03,735 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PSw5YqQ HTTP/1.1" 200 -
+2025-06-04 15:37:03,737 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PSw5YqQ HTTP/1.1" 200 -
+2025-06-04 15:37:03,742 - INFO - Client David connected: sqPxVO-NmE3xEUtrAAAC
+2025-06-04 15:37:03,742 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "POST /socket.io/?EIO=4&transport=polling&t=PSw5ZPw&sid=65N9jn9rUiNWGBi4AAAA HTTP/1.1" 200 -
+2025-06-04 15:37:03,743 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PSw5ZPx&sid=65N9jn9rUiNWGBi4AAAA HTTP/1.1" 200 -
+2025-06-04 15:37:03,746 - INFO - Client David connected: VupNyEedtoB823FNAAAD
+2025-06-04 15:37:03,746 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "POST /socket.io/?EIO=4&transport=polling&t=PSw5ZPx&sid=r5avTmY39MHFhzsWAAAB HTTP/1.1" 200 -
+2025-06-04 15:37:03,746 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PSw5ZPy&sid=r5avTmY39MHFhzsWAAAB HTTP/1.1" 200 -
+2025-06-04 15:37:03,748 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PSw5ZQ1&sid=65N9jn9rUiNWGBi4AAAA HTTP/1.1" 200 -
+2025-06-04 15:37:03,770 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PSw5ZQ5&sid=r5avTmY39MHFhzsWAAAB HTTP/1.1" 200 -
+2025-06-04 15:37:09,375 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:09] "GET / HTTP/1.1" 200 -
+2025-06-04 15:37:09,515 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:09] "GET /socket.io/?EIO=4&transport=polling&t=PSw5aq9 HTTP/1.1" 200 -
+2025-06-04 15:37:09,533 - INFO - Client David connected: kjZH56mp5ruzMsVeAAAF
+2025-06-04 15:37:09,533 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:09] "POST /socket.io/?EIO=4&transport=polling&t=PSw5aqQ&sid=vdRFtWn-By6u0i2wAAAE HTTP/1.1" 200 -
+2025-06-04 15:37:09,535 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:09] "GET /socket.io/?EIO=4&transport=polling&t=PSw5aqQ.0&sid=vdRFtWn-By6u0i2wAAAE HTTP/1.1" 200 -
+2025-06-04 15:37:09,549 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:09] "GET /socket.io/?EIO=4&transport=polling&t=PSw5aqh&sid=vdRFtWn-By6u0i2wAAAE HTTP/1.1" 200 -
+2025-06-04 15:37:11,165 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:11] "GET /socket.io/?EIO=4&transport=websocket&sid=65N9jn9rUiNWGBi4AAAA HTTP/1.1" 200 -
+2025-06-04 15:37:12,437 - INFO - 127.0.0.1 - - [04/Jun/2025 15:37:12] "GET /socket.io/?EIO=4&transport=websocket&sid=r5avTmY39MHFhzsWAAAB HTTP/1.1" 200 -
+2025-06-04 15:37:13,765 - INFO - Ngý\u1eddi dùng David ðãng xu\u1ea5t
+2025-06-04 15:37:13,765 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:37:13,770 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:13] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:37:13,873 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:13] "GET /socket.io/?EIO=4&transport=websocket&sid=vdRFtWn-By6u0i2wAAAE HTTP/1.1" 200 -
+2025-06-04 15:37:24,921 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 15:37:24,921 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:37:24,926 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:24] "GET / HTTP/1.1" 200 -
+2025-06-04 15:37:25,014 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:25] "GET /socket.io/?EIO=4&transport=polling&t=PSw5ecK HTTP/1.1" 200 -
+2025-06-04 15:37:25,039 - INFO - Client Alice connected: BslY24nNbSZU_rCQAAAH
+2025-06-04 15:37:25,039 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:25] "POST /socket.io/?EIO=4&transport=polling&t=PSw5eci&sid=94IVD1mseNBoTBmOAAAG HTTP/1.1" 200 -
+2025-06-04 15:37:25,053 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:25] "GET /socket.io/?EIO=4&transport=polling&t=PSw5ecj&sid=94IVD1mseNBoTBmOAAAG HTTP/1.1" 200 -
+2025-06-04 15:37:36,257 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:36] "GET / HTTP/1.1" 200 -
+2025-06-04 15:37:36,399 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:36] "GET /socket.io/?EIO=4&transport=polling&t=PSw5hOE HTTP/1.1" 200 -
+2025-06-04 15:37:36,418 - INFO - Client Alice connected: cXmxFwD7qUDezcMLAAAJ
+2025-06-04 15:37:36,419 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:36] "POST /socket.io/?EIO=4&transport=polling&t=PSw5hOV&sid=qP9K0ZvuNmnWbZISAAAI HTTP/1.1" 200 -
+2025-06-04 15:37:36,420 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:36] "GET /socket.io/?EIO=4&transport=polling&t=PSw5hOV.0&sid=qP9K0ZvuNmnWbZISAAAI HTTP/1.1" 200 -
+2025-06-04 15:37:36,430 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:36] "GET /socket.io/?EIO=4&transport=polling&t=PSw5hOj&sid=qP9K0ZvuNmnWbZISAAAI HTTP/1.1" 200 -
+2025-06-04 15:37:37,818 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 15:37:37,819 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:37:37,822 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:37] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:37:37,921 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:37] "GET /socket.io/?EIO=4&transport=websocket&sid=qP9K0ZvuNmnWbZISAAAI HTTP/1.1" 200 -
+2025-06-04 15:37:52,157 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 15:37:52,158 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:37:52,161 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:52] "GET / HTTP/1.1" 200 -
+2025-06-04 15:37:52,249 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:52] "GET /socket.io/?EIO=4&transport=polling&t=PSw5lFs HTTP/1.1" 200 -
+2025-06-04 15:37:52,267 - INFO - Client David connected: NtLetxIK2tU3qRjBAAAL
+2025-06-04 15:37:52,268 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:52] "POST /socket.io/?EIO=4&transport=polling&t=PSw5lG9&sid=F7oPVsSylRE7G01XAAAK HTTP/1.1" 200 -
+2025-06-04 15:37:52,270 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:52] "GET /socket.io/?EIO=4&transport=polling&t=PSw5lGA&sid=F7oPVsSylRE7G01XAAAK HTTP/1.1" 200 -
+2025-06-04 15:37:52,273 - INFO - 172.16.10.243 - - [04/Jun/2025 15:37:52] "GET /socket.io/?EIO=4&transport=polling&t=PSw5lGG&sid=F7oPVsSylRE7G01XAAAK HTTP/1.1" 200 -
+2025-06-04 15:37:59,054 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:38:12,272 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 0 files
+2025-06-04 15:44:30,708 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:44:30,709 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:44:30,709 - INFO -  * Restarting with stat
+2025-06-04 15:44:31,822 - WARNING -  * Debugger is active!
+2025-06-04 15:44:31,825 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:44:37,812 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:37] "GET / HTTP/1.1" 200 -
+2025-06-04 15:44:37,960 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:37] "GET /socket.io/?EIO=4&transport=polling&t=PSw7IJ6 HTTP/1.1" 200 -
+2025-06-04 15:44:37,977 - INFO - Client David connected: XZClbKIHxSXEDLWtAAAB
+2025-06-04 15:44:37,977 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:37] "POST /socket.io/?EIO=4&transport=polling&t=PSw7IJM&sid=jzOlvVJ78IjloYDhAAAA HTTP/1.1" 200 -
+2025-06-04 15:44:37,980 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:37] "GET /socket.io/?EIO=4&transport=polling&t=PSw7IJN&sid=jzOlvVJ78IjloYDhAAAA HTTP/1.1" 200 -
+2025-06-04 15:44:37,992 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:37] "GET /socket.io/?EIO=4&transport=polling&t=PSw7IJc&sid=jzOlvVJ78IjloYDhAAAA HTTP/1.1" 200 -
+2025-06-04 15:44:47,092 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:47] "GET / HTTP/1.1" 200 -
+2025-06-04 15:44:47,257 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:47] "GET /socket.io/?EIO=4&transport=polling&t=PSw7KaN HTTP/1.1" 200 -
+2025-06-04 15:44:47,267 - INFO - Client David connected: 1cAhwAgm0wgIf-BqAAAD
+2025-06-04 15:44:47,268 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:47] "POST /socket.io/?EIO=4&transport=polling&t=PSw7KaY&sid=1lw3SgECFIe1S86NAAAC HTTP/1.1" 200 -
+2025-06-04 15:44:47,268 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:47] "GET /socket.io/?EIO=4&transport=polling&t=PSw7KaZ&sid=1lw3SgECFIe1S86NAAAC HTTP/1.1" 200 -
+2025-06-04 15:44:50,354 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:44:54,590 - INFO - 172.16.10.243 - - [04/Jun/2025 15:44:54] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-06-04 15:45:01,683 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob, loaded 0 files
+2025-06-04 15:45:02,172 - INFO - David ð\xe3 vào ph\xf2ng Charlie-David v\u1edbi Charlie, loaded 0 files
+2025-06-04 15:45:02,895 - INFO - David ð\xe3 vào ph\xf2ng Bob-David v\u1edbi Bob, loaded 0 files
+2025-06-04 15:45:05,054 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:05] "GET /socket.io/?EIO=4&transport=polling&t=PSw7Kap&sid=1lw3SgECFIe1S86NAAAC HTTP/1.1" 200 -
+2025-06-04 15:45:06,542 - INFO - Ngý\u1eddi dùng David ðãng xu\u1ea5t
+2025-06-04 15:45:06,542 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:45:06,547 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:06] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:45:06,649 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:06] "GET /socket.io/?EIO=4&transport=websocket&sid=1lw3SgECFIe1S86NAAAC HTTP/1.1" 200 -
+2025-06-04 15:45:16,967 - WARNING - Ðãng nh\u1eadp th\u1ea5t b\u1ea1i v\u1edbi username: Bol
+2025-06-04 15:45:16,967 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:16] "POST /login HTTP/1.1" 200 -
+2025-06-04 15:45:27,393 - INFO - Ngý\u1eddi dùng Bob ðãng nh\u1eadp thành công
+2025-06-04 15:45:27,394 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:45:27,398 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:27] "GET / HTTP/1.1" 200 -
+2025-06-04 15:45:27,478 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:27] "GET /socket.io/?EIO=4&transport=polling&t=PSw7UOq HTTP/1.1" 200 -
+2025-06-04 15:45:27,501 - INFO - Client Bob connected: nRbtn9-j7rSpEYJOAAAF
+2025-06-04 15:45:27,501 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:27] "POST /socket.io/?EIO=4&transport=polling&t=PSw7UPA&sid=McMSW1vCymYm6kTzAAAE HTTP/1.1" 200 -
+2025-06-04 15:45:27,503 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:27] "GET /socket.io/?EIO=4&transport=polling&t=PSw7UPB&sid=McMSW1vCymYm6kTzAAAE HTTP/1.1" 200 -
+2025-06-04 15:45:31,671 - INFO - Bob ð\xe3 vào ph\xf2ng Bob-David v\u1edbi David, loaded 0 files
+2025-06-04 15:45:37,276 - INFO - 172.16.10.243 - - [04/Jun/2025 15:45:37] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-06-04 15:46:12,039 - INFO -  * Detected change in 'd:\\Python\\TruyenFileSHA-256\\app.py', reloading
+2025-06-04 15:46:12,071 - INFO -  * Restarting with stat
+2025-06-04 15:46:13,191 - WARNING -  * Debugger is active!
+2025-06-04 15:46:13,193 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:46:13,372 - INFO - 172.16.10.243 - - [04/Jun/2025 15:46:13] "GET /socket.io/?EIO=4&transport=polling&t=PSw7fbQ HTTP/1.1" 200 -
+2025-06-04 15:46:13,377 - INFO - Client Bob connected: hLdwfMZNJCCj8MyUAAAB
+2025-06-04 15:46:13,378 - INFO - 172.16.10.243 - - [04/Jun/2025 15:46:13] "POST /socket.io/?EIO=4&transport=polling&t=PSw7fb_&sid=h3cUgJSrRK2LwgCZAAAA HTTP/1.1" 200 -
+2025-06-04 15:46:13,380 - INFO - 172.16.10.243 - - [04/Jun/2025 15:46:13] "GET /socket.io/?EIO=4&transport=polling&t=PSw7fc0&sid=h3cUgJSrRK2LwgCZAAAA HTTP/1.1" 200 -
+2025-06-04 15:46:14,346 - INFO - 172.16.10.243 - - [04/Jun/2025 15:46:14] "GET /socket.io/?EIO=4&transport=polling&t=PSw7fr5 HTTP/1.1" 200 -
+2025-06-04 15:46:14,351 - INFO - Client Bob connected: Y8ESFqCrs1dEy5oaAAAD
+2025-06-04 15:46:14,351 - INFO - 172.16.10.243 - - [04/Jun/2025 15:46:14] "POST /socket.io/?EIO=4&transport=polling&t=PSw7frD&sid=xVbO5oa3KGQrzea7AAAC HTTP/1.1" 200 -
+2025-06-04 15:46:14,353 - INFO - 172.16.10.243 - - [04/Jun/2025 15:46:14] "GET /socket.io/?EIO=4&transport=polling&t=PSw7frD.0&sid=xVbO5oa3KGQrzea7AAAC HTTP/1.1" 200 -
+2025-06-04 15:48:01,026 - INFO - 172.16.10.243 - - [04/Jun/2025 15:48:01] "GET /socket.io/?EIO=4&transport=websocket&sid=xVbO5oa3KGQrzea7AAAC HTTP/1.1" 200 -
+2025-06-04 15:48:01,995 - INFO - 172.16.10.243 - - [04/Jun/2025 15:48:01] "GET /socket.io/?EIO=4&transport=websocket&sid=h3cUgJSrRK2LwgCZAAAA HTTP/1.1" 200 -
+2025-06-04 15:50:37,930 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:50:37,930 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:50:37,930 - INFO -  * Restarting with stat
+2025-06-04 15:50:39,072 - WARNING -  * Debugger is active!
+2025-06-04 15:50:39,075 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:54:05,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.243:5000
+2025-06-04 15:54:05,207 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 15:54:05,207 - INFO -  * Restarting with stat
+2025-06-04 15:54:06,350 - WARNING -  * Debugger is active!
+2025-06-04 15:54:06,353 - INFO -  * Debugger PIN: 119-358-081
+2025-06-04 15:54:09,652 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:09] "GET / HTTP/1.1" 200 -
+2025-06-04 15:54:09,796 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:09] "GET /socket.io/?EIO=4&transport=polling&t=PSw9Tv- HTTP/1.1" 200 -
+2025-06-04 15:54:09,809 - INFO - Client Bob connected: g7xCHSepTjXtwqbLAAAB
+2025-06-04 15:54:09,809 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:09] "POST /socket.io/?EIO=4&transport=polling&t=PSw9TwE&sid=vVLKDIm6f2CeRPbOAAAA HTTP/1.1" 200 -
+2025-06-04 15:54:09,811 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:09] "GET /socket.io/?EIO=4&transport=polling&t=PSw9TwF&sid=vVLKDIm6f2CeRPbOAAAA HTTP/1.1" 200 -
+2025-06-04 15:54:09,823 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:09] "GET /socket.io/?EIO=4&transport=polling&t=PSw9TwT&sid=vVLKDIm6f2CeRPbOAAAA HTTP/1.1" 200 -
+2025-06-04 15:54:18,144 - INFO - Ngý\u1eddi dùng Bob ðãng xu\u1ea5t
+2025-06-04 15:54:18,145 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:54:18,149 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:18] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:54:18,252 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:18] "GET /socket.io/?EIO=4&transport=websocket&sid=vVLKDIm6f2CeRPbOAAAA HTTP/1.1" 200 -
+2025-06-04 15:54:28,063 - INFO - Ngý\u1eddi dùng Alice ðãng nh\u1eadp thành công
+2025-06-04 15:54:28,064 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:54:28,067 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:28] "GET / HTTP/1.1" 200 -
+2025-06-04 15:54:28,148 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:28] "GET /socket.io/?EIO=4&transport=polling&t=PSw9YOo HTTP/1.1" 200 -
+2025-06-04 15:54:28,175 - INFO - Client Alice connected: BWIVXDQndQKblRMnAAAD
+2025-06-04 15:54:28,175 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:28] "POST /socket.io/?EIO=4&transport=polling&t=PSw9YPD&sid=AcEsQaX96pE6FPl0AAAC HTTP/1.1" 200 -
+2025-06-04 15:54:28,177 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:28] "GET /socket.io/?EIO=4&transport=polling&t=PSw9YPD.0&sid=AcEsQaX96pE6FPl0AAAC HTTP/1.1" 200 -
+2025-06-04 15:54:30,374 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:30] "GET / HTTP/1.1" 200 -
+2025-06-04 15:54:30,522 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:30] "GET /socket.io/?EIO=4&transport=polling&t=PSw9Yzs HTTP/1.1" 200 -
+2025-06-04 15:54:30,532 - INFO - Client Alice connected: 82r2-0u4Phu4-PQSAAAF
+2025-06-04 15:54:30,532 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:30] "POST /socket.io/?EIO=4&transport=polling&t=PSw9Y-1&sid=v8BwA7WDK7Xaep6tAAAE HTTP/1.1" 200 -
+2025-06-04 15:54:30,532 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:30] "GET /socket.io/?EIO=4&transport=polling&t=PSw9Y-2&sid=v8BwA7WDK7Xaep6tAAAE HTTP/1.1" 200 -
+2025-06-04 15:54:31,056 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:31] "GET /socket.io/?EIO=4&transport=polling&t=PSw9Y-K&sid=v8BwA7WDK7Xaep6tAAAE HTTP/1.1" 200 -
+2025-06-04 15:54:32,658 - INFO - Ngý\u1eddi dùng Alice ðãng xu\u1ea5t
+2025-06-04 15:54:32,658 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-04 15:54:32,661 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:32] "GET /login HTTP/1.1" 200 -
+2025-06-04 15:54:32,762 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:32] "GET /socket.io/?EIO=4&transport=websocket&sid=v8BwA7WDK7Xaep6tAAAE HTTP/1.1" 200 -
+2025-06-04 15:54:40,091 - INFO - Ngý\u1eddi dùng David ðãng nh\u1eadp thành công
+2025-06-04 15:54:40,091 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-04 15:54:40,095 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:40] "GET / HTTP/1.1" 200 -
+2025-06-04 15:54:40,188 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:40] "GET /socket.io/?EIO=4&transport=polling&t=PSw9bKv HTTP/1.1" 200 -
+2025-06-04 15:54:40,212 - INFO - Client David connected: Z1Are9FMIFV2K5nkAAAH
+2025-06-04 15:54:40,212 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:40] "POST /socket.io/?EIO=4&transport=polling&t=PSw9bLH&sid=5bRG9Sp3Wm6MHQ11AAAG HTTP/1.1" 200 -
+2025-06-04 15:54:40,214 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:40] "GET /socket.io/?EIO=4&transport=polling&t=PSw9bLI&sid=5bRG9Sp3Wm6MHQ11AAAG HTTP/1.1" 200 -
+2025-06-04 15:54:40,220 - INFO - 172.16.10.243 - - [04/Jun/2025 15:54:40] "GET /socket.io/?EIO=4&transport=polling&t=PSw9bLP&sid=5bRG9Sp3Wm6MHQ11AAAG HTTP/1.1" 200 -
+2025-06-04 15:54:42,816 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 0 files
+2025-06-04 15:54:49,481 - INFO - File uploaded by David to Alice in room Alice-David: data.txt, Hash: fd50a6e8b66afffa72147c65871a391e3f01c9fc5968eae51fa4d80d2029efa1, Size: 1580 bytes
+2025-06-04 15:55:00,930 - INFO - Alice ð\xe3 vào ph\xf2ng Alice-David v\u1edbi David, loaded 1 files
+2025-06-04 16:17:47,338 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:47] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-06-04 16:17:47,482 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:47] "GET /socket.io/?EIO=4&transport=polling&t=PSwEu1O HTTP/1.1" 200 -
+2025-06-04 16:17:47,492 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:47] "GET /socket.io/?EIO=4&transport=websocket&sid=AcEsQaX96pE6FPl0AAAC HTTP/1.1" 200 -
+2025-06-04 16:17:47,498 - INFO - Client David connected: qDFxesOAE9MrlMmvAAAJ
+2025-06-04 16:17:47,498 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:47] "POST /socket.io/?EIO=4&transport=polling&t=PSwEu1e&sid=xpeSJ9FYlAQwBG6OAAAI HTTP/1.1" 200 -
+2025-06-04 16:17:47,499 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:47] "GET /socket.io/?EIO=4&transport=polling&t=PSwEu1f&sid=xpeSJ9FYlAQwBG6OAAAI HTTP/1.1" 200 -
+2025-06-04 16:17:48,129 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:48] "GET /socket.io/?EIO=4&transport=polling&t=PSwEuBW HTTP/1.1" 200 -
+2025-06-04 16:17:48,138 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:48] "GET /socket.io/?EIO=4&transport=websocket&sid=xpeSJ9FYlAQwBG6OAAAI HTTP/1.1" 200 -
+2025-06-04 16:17:48,144 - INFO - Client David connected: bdp-dONAsOt9y4MpAAAL
+2025-06-04 16:17:48,144 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:48] "POST /socket.io/?EIO=4&transport=polling&t=PSwEuBl&sid=VRRt198jJQE_m7MgAAAK HTTP/1.1" 200 -
+2025-06-04 16:17:48,146 - INFO - 172.16.10.243 - - [04/Jun/2025 16:17:48] "GET /socket.io/?EIO=4&transport=polling&t=PSwEuBl.0&sid=VRRt198jJQE_m7MgAAAK HTTP/1.1" 200 -
+2025-06-04 16:17:52,694 - INFO - David ð\xe3 vào ph\xf2ng Alice-David v\u1edbi Alice, loaded 1 files
+2025-06-04 16:25:09,073 - INFO - David ð\xe3 vào ph\xf2ng Charlie-David v\u1edbi Charlie, loaded 0 files
+2025-06-04 16:32:00,969 - INFO - 172.16.10.243 - - [04/Jun/2025 16:32:00] "GET /socket.io/?EIO=4&transport=websocket&sid=5bRG9Sp3Wm6MHQ11AAAG HTTP/1.1" 200 -
+2025-06-04 16:32:00,972 - INFO - 172.16.10.243 - - [04/Jun/2025 16:32:00] "GET /socket.io/?EIO=4&transport=websocket&sid=VRRt198jJQE_m7MgAAAK HTTP/1.1" 200 -
+2025-06-04 16:34:15,181 - INFO - 172.16.10.243 - - [04/Jun/2025 16:34:15] "GET /socket.io/?EIO=4&transport=polling&t=PSwIeg_ HTTP/1.1" 200 -
+2025-06-04 16:34:15,242 - INFO - 172.16.10.243 - - [04/Jun/2025 16:34:15] "GET /socket.io/?EIO=4&transport=polling&t=PSwIegv HTTP/1.1" 200 -
+2025-06-04 16:34:15,303 - INFO - Client David connected: DAYT7GQ9_KMO8YPfAAAO
+2025-06-04 16:34:15,309 - INFO - 172.16.10.243 - - [04/Jun/2025 16:34:15] "POST /socket.io/?EIO=4&transport=polling&t=PSwIfBe&sid=9qrLMC3qOb9bTsc6AAAN HTTP/1.1" 200 -
+2025-06-04 16:34:15,343 - INFO - 172.16.10.243 - - [04/Jun/2025 16:34:15] "GET /socket.io/?EIO=4&transport=polling&t=PSwIfBg&sid=9qrLMC3qOb9bTsc6AAAN HTTP/1.1" 200 -
+2025-06-04 16:34:15,436 - INFO - Client David connected: PPqqvOBjcuI7scC6AAAP
+2025-06-04 16:34:15,438 - INFO - 172.16.10.243 - - [04/Jun/2025 16:34:15] "POST /socket.io/?EIO=4&transport=polling&t=PSwIfDb&sid=cKPenJwJUWiBy5_BAAAM HTTP/1.1" 200 -
+2025-06-04 16:34:15,458 - INFO - 172.16.10.243 - - [04/Jun/2025 16:34:15] "GET /socket.io/?EIO=4&transport=polling&t=PSwIfDx&sid=cKPenJwJUWiBy5_BAAAM HTTP/1.1" 200 -
+2025-06-04 16:45:16,979 - INFO - 172.16.10.243 - - [04/Jun/2025 16:45:16] "GET /socket.io/?EIO=4&transport=websocket&sid=cKPenJwJUWiBy5_BAAAM HTTP/1.1" 200 -
+2025-06-04 16:45:16,983 - INFO - 172.16.10.243 - - [04/Jun/2025 16:45:16] "GET /socket.io/?EIO=4&transport=websocket&sid=9qrLMC3qOb9bTsc6AAAN HTTP/1.1" 200 -

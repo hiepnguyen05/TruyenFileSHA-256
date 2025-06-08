@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: linear-gradient(135deg, #f0f2f5 0%, #ffffff 100%); }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Đăng Nhập</h1>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="text-red-500 text-sm mb-4 text-center">
+                    {{ messages[0] }}
+                </div>
+            {% endif %}
+        {% endwith %}
+        <form method="POST">
+            <div class="mb-4">
+                <label for="username" class="block text-sm font-medium text-gray-700">Tên Người Dùng</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-lg w-full focus:ring-2 focus:ring-blue-500" placeholder="Nhập tên người dùng" required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-sm font-medium text-gray-700">Mật Khẩu</label>
+                <input type="password" id="password" name="password" class="mt-1 p-2 border rounded-lg w-full focus:ring-2 focus:ring-blue-500" placeholder="Nhập mật khẩu" required>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white p-2 rounded-lg w-full hover:bg-blue-700 transition">Đăng Nhập</button>
+        </form>
+    </div>
+</body>
+</html>
